@@ -5,7 +5,7 @@ int main()
 	int x;
 	printf("Enter your height:");
 	scanf("%d", &x);
-	if (x < 0)
+	if (x < 0 || x>1 && x< 119)
 	{
 		printf("Error");
 		}
@@ -15,7 +15,7 @@ int main()
 	}
 	else if (x > 131 && x < 140)
 	{
-		printf("You're extreamly short");
+		printf("You're extremely short");
 	}
 	else if (x > 141 && x < 150)
 	{
